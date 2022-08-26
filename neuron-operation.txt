@@ -1,0 +1,46 @@
+./quill-linux-x86_64 --pem-file ~/.config/dfx/identity/neuron3/identity.pem neuron-manage 6362091663310642824 --follow-topic=8 --follow-neurons 27 28 | ./quill-linux-x86_64 send --yes -
+
+dfx --identity neuron3 canister --network=ic call rrkah-fqaaa-aaaaa-aaaaq-cai get_full_neuron_by_id_or_subaccount "(variant {NeuronId=record {id=6362091663310642824:nat64}})"
+
+./quill-linux-x86_64 --pem-file ~/.config/dfx/identity/neuron3/identity.pem list-neurons
+
+./quill-linux-x86_64 --pem-file ~/.config/dfx/identity/neuron3/identity.pem account-balance 64246cf83d192626d131e429f9200d9c362419a5ccfb2e38802b103b65038c5d
+
+./quill-linux-x86_64 --pem-file ~/.config/dfx/identity/neuron3/identity.pem account-balance 64246cf83d192626d131e429f9200d9c362419a5ccfb2e38802b103b65038c5d
+./quill-linux-x86_64 --pem-file ~/.config/dfx/identity/neuron3/identity.pem neuron-stake --name RawTech --amount 22 > message.json
+./quill-linux-x86_64 --pem-file ~/.config/dfx/identity/neuron3/identity.pem send message.json
+./quill-linux-x86_64 --pem-file ~/.config/dfx/identity/neuron3/identity.pem neuron-manage 6362091663310642824 --additional-dissolve-delay-seconds 31557600 > message.json
+./quill-linux-x86_64 --pem-file ~/.config/dfx/identity/neuron3/identity.pem send message.json
+
+
+dfx --identity neuron3 canister --network ic call rrkah-fqaaa-aaaaa-aaaaq-cai manage_neuron "( record { id = opt record { id = null }; command = opt variant { MakeProposal = record { url = \"\"; title = \"Proposal for Named Neuron - RawTech Venture\"; action = opt variant { RegisterKnownNeuron = record { id = opt record { id = 6362091663310642824 : nat64 }; known_neuron_data = opt record { name = \"RawTech Venture\"; description = \"This is a neuron that belongs to RawTech Venture.\"}}}; summary = \"  
+# Proposal for Named Neuron - RawTech Venture
+
+## who am I?
+We are RawTech Venture, a web3 tech-lead venture fund, aiming at investing blockchain infrastructure from layer0 to layer2, and revolutionary Dapps based on IC ecosystem.                                                                                                 
+- Firstly, we are not just a venture but have over 50 engineers in house and have been researching deeply on cross chain and filecoin network(which is in the decentralized storage domain), so that we have the ability to offer tech support for projects no matter whether we invested or not.                                                                                                  
+- Second, we have already invested the projects inner IC network such as Catalyze, Canistore, Filswan, Dmail, hola pocket and etc. So compared with other candidates, we are looking from very different angles as both investor and eco-builder.   
+- Third, in order to have a deep and further understanding of IC network, we created a project named chain-cloud,an one-stop compile and deployment platform, which also got $25,000 grant in October Last year. We are tightly following up on the newest updates on BTC/ETH integration, HTTPS outcall, ICRC-1 token, storage subnet, SNS, etc. Based on the endeavor/attempt we tried above, we can confidently say that IC is going to have a bright future and we will catch up continuously with the growth of IC.
+
+## Why we apply for the named neuron?
+As a constructioner in IC, it's definitely great if we can become a KOL or community leader cause everyone can express point of views but not everyone can use their voice to speak out loud to the whole community and followed by fans. So we apply for the named neuron and are willing to share our skills, cognition, products to community and projects in IC chain.                                                                                                 
+- From the angle of investors, we'll insist to vote YES to more proposals on behalf of all the ICP token holders, help to increase the token price, help to attract more capitals in to promote the development of IC ecosystem.
+- From the angle of tech developers, we are going to suggest both the IC official team and other developers to focus more on the priorities among all the functions planned to be achieved. For instance, at this stage, we think it's much more important to unify token standard, integrate BTC and attract UDSC/USDT such kind of stable coins in to enhance defi domain to increase TVL, instead of taking lots of time and energy to research on edge network, subnet split,subnet rent, people party, etc(not mean these are not necessary but just not so important and urgent at present). Also, we'll suggest IC team to outsource some work and function to eco-developers rather than do all the stuff themselves which can both increase efficiency and show more dao spirit to community.  
+- From the angle of community members, on the one hand, we'll continuously collect public's requirements and voice. On the other hand, we'll vote for proposals representing the interest of community instead of IC official team or third party.
+
+## What shall we do to proceed with the development of IC?                                                                                                 
+It's quite good to open the channel that allow every single NNS free to choose which one to follow and it shows the spirit of community autonomy. If we are honored to become the named neuron, we'll insist to keep openmind and justice to propose and implement proposals promoting the development of IC network.                                                                                                 
+1. We'll set a committee with 8 members(2 researchers, 2 investors, 3 tech engineers, 1 community operator), responsible for voting proposals in position of community, developers as well as investors.  
+2. We'll never follow neurons which have relations with IC team. We'll review and evaluate every proposal autonomy and think twice from our professional angle.                                                                                                 
+3. For those important proposals, we'll not just vote but also broadcast the info and different point of views to more who pay attention to IC network. Attract more eyesight and power into IC and build a more democratic and decentralized network.  
+4. We'll be opposed to proposals without a long term eyesight and look high for short term, and also we'll put the revise opinion to improve these proposals.                                                                                                 
+5. We'll take more endeavor and time to promote the Defi related proposals, cause we think it's quite important to boost the ecosystem and attract more developers and projects joining in IC.  
+6. We'll support more and more named neurons which are coming from other communities and representing different interest groups.                                                                                                 
+ 
+## Neuron information                                                                                                 
+- Name: RawTech Venture                                                                                                 
+- Neuron id: 6362091663310642824                                                                                                 
+- Description: This is a neuron that belongs to an RawTech Venture.                                                                                                 
+ 
+## Conclusion                                                                                                 
+All in all, we are pleased to call all NNS to vote for us becoming named neuron. We'll always be open, justice and creative to take our voting power and responsible for those followers who follow our NNS. Our voting committee will continuously working on both proposing and voting for proposals, and permanently on behalf of the community interest rather than a small group of interest.\" }}; neuron_id_or_subaccount=opt variant {NeuronId=record {id=6362091663310642824 : nat64}}})"
