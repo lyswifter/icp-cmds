@@ -1,2 +1,2 @@
 # icp-cmds
-This is for some Internet Computer commands for persistence.
+This is some Internet Computer commands for persistence.
