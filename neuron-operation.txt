@@ -48,3 +48,127 @@ All in all, we are pleased to call all NNS to vote for us becoming named neuron.
 
 
 https://forum.dfinity.org/t/a-how-to-guide-for-voting-on-nns-proposals-with-command-line-tool-only/12669
+
+
+➜  ~ dfx --identity neuron3 canister --network=ic call rrkah-fqaaa-aaaaa-aaaaq-cai get_full_neuron_by_id_or_subaccount "(variant {NeuronId=record {id=6362091663310642824:nat64}})"
+dfx.json not found, using default.
+(
+  variant {
+    17_724 = record {
+      23_515 = opt record { 23_515 = 6_362_091_663_310_642_824 : nat64 };
+      79_599_772 = opt principal "rmod3-je5z7-vgtuy-vcya3-qqsju-sr7vt-5tlhu-mfz2f-nh7vn-lldzo-tae";
+      349_671_467 = vec {
+        record {
+          1_314_114_794 = 1 : int32;
+          2_744_746_248 = opt record { 23_515 = 77_328 : nat64 };
+        };
+      };
+      456_924_626 = true;
+      852_549_734 = false;
+      1_029_637_143 = 0 : nat64;
+      1_257_408_332 = 2_200_000_000 : nat64;
+      1_392_680_831 = 1_661_412_899 : nat64;
+      2_399_567_118 = 1_661_412_946 : nat64;
+      2_680_861_478 = vec {};
+      2_707_029_165 = blob "\eb\f5]\d0\c7\f7}\b8\08\a2\f0\08\d2\1a\d0\a4\a7\b9\da\08\d8\96\05^\d9\c0O\dbj\95\8b\fb";
+      2_878_748_008 = null;
+      3_084_775_299 = opt variant { 1_620_537_965 = 31_557_600 : nat64 };
+      3_407_357_762 = vec {
+        record {
+          9 : int32;
+          record {
+            3_407_357_762 = vec {
+              record { 23_515 = 27 : nat64 };
+              record { 23_515 = 28 : nat64 };
+            };
+          };
+        };
+        record {
+          5 : int32;
+          record {
+            3_407_357_762 = vec {
+              record { 23_515 = 27 : nat64 };
+              record { 23_515 = 28 : nat64 };
+            };
+          };
+        };
+        record {
+          1 : int32;
+          record {
+            3_407_357_762 = vec {
+              record { 23_515 = 27 : nat64 };
+              record { 23_515 = 28 : nat64 };
+            };
+          };
+        };
+        record {
+          4 : int32;
+          record {
+            3_407_357_762 = vec {
+              record { 23_515 = 5_906_245_060_873_754_321 : nat64 };
+              record { 23_515 = 7_894_247_245_818_109_963 : nat64 };
+            };
+          };
+        };
+        record {
+          6 : int32;
+          record {
+            3_407_357_762 = vec {
+              record { 23_515 = 27 : nat64 };
+              record { 23_515 = 28 : nat64 };
+            };
+          };
+        };
+        record {
+          7 : int32;
+          record {
+            3_407_357_762 = vec {
+              record { 23_515 = 27 : nat64 };
+              record { 23_515 = 28 : nat64 };
+            };
+          };
+        };
+        record {
+          2 : int32;
+          record {
+            3_407_357_762 = vec {
+              record { 23_515 = 27 : nat64 };
+              record { 23_515 = 28 : nat64 };
+            };
+          };
+        };
+        record {
+          8 : int32;
+          record {
+            3_407_357_762 = vec {
+              record { 23_515 = 27 : nat64 };
+              record { 23_515 = 28 : nat64 };
+            };
+          };
+        };
+        record {
+          3 : int32;
+          record {
+            3_407_357_762 = vec {
+              record { 23_515 = 27 : nat64 };
+              record { 23_515 = 28 : nat64 };
+            };
+          };
+        };
+        record {
+          10 : int32;
+          record {
+            3_407_357_762 = vec {
+              record { 23_515 = 27 : nat64 };
+              record { 23_515 = 28 : nat64 };
+            };
+          };
+        };
+      };
+      3_439_871_066 = 1_000_000_000 : nat64;
+      3_664_621_355 = null;
+      3_746_161_594 = null;
+      3_781_340_430 = null;
+    }
+  },
+)
