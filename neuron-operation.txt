@@ -44,3 +44,7 @@ It's quite good to open the channel that allow every single NNS free to choose w
  
 ## Conclusion                                                                                                 
 All in all, we are pleased to call all NNS to vote for us becoming named neuron. We'll always be open, justice and creative to take our voting power and responsible for those followers who follow our NNS. Our voting committee will continuously working on both proposing and voting for proposals, and permanently on behalf of the community interest rather than a small group of interest.\" }}; neuron_id_or_subaccount=opt variant {NeuronId=record {id=6362091663310642824 : nat64}}})"
+
+
+
+https://forum.dfinity.org/t/a-how-to-guide-for-voting-on-nns-proposals-with-command-line-tool-only/12669

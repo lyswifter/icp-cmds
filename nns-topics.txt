@@ -1,0 +1,13 @@
+Unspecified = 0,
+  ManageNeuron = 1,
+  ExchangeRate = 2,
+  NetworkEconomics = 3,
+  Governance = 4,
+  NodeAdmin = 5,
+  ParticipantManagement = 6,
+  SubnetManagement = 7,
+  NetworkCanisterManagement = 8,
+  Kyc = 9,
+  NodeProviderRewards = 10,
+  
+  https://github.com/dfinity/ic/blob/master/rs/nns/governance/proto/ic_nns_governance/pb/v1/governance.proto
